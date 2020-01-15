@@ -1,0 +1,84 @@
+:root {
+    --message-background-color-1: rgb(168, 242, 255);
+    --message-background-color-2: rgb(205, 255, 205);
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chat {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.messages {
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.message {
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 80%;
+    margin-bottom: 8px;
+}
+
+.user-flex {
+    justify-content: flex-end;
+}
+
+.user {
+    background-color: var(--message-background-color-1);
+}
+
+.other {
+    background-color: var(--message-background-color-2);
+}
+
+.message__sender {
+    margin-bottom: 4px;
+}
+
+.message__text {
+    margin-bottom: 4px;
+    word-wrap: break-word;
+}
+
+.form {
+    margin-top: auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.form__input {
+    flex-grow: 1;
+    padding: 4px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+
+.form__button {
+    margin-left: 8px;
+    padding: 4px;
+    font-size: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}

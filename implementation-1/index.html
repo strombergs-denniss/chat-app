@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <link href="styles/style.css" rel="stylesheet">
+        <script src="scripts/script.js" defer></script>
+        <title>Chat App</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="chat">
+                <div class="messages" id="messages"></div>
+                <form class="form">
+                    <textarea class="form__input" id="form__input" rows="1"></textarea>
+                    <div>
+                        <button class="form__button" id="form__button">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

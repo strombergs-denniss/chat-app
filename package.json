@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Simple chat app for learning which will be something like discord and other chat apps but with my take on it. Project will be implemented in different web technologies (frameworks, libraries) for fun and learning purposes.\r ## Links\r * [Trello](https://trello.com/b/nyyG441P/chat-app)\r * [Figma](https://www.figma.com/file/17AkurHOJxuqG1bMDY7jyK/chat-app)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strombergs-denniss/chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strombergs-denniss/chat-app/issues"
+  },
+  "homepage": "https://github.com/strombergs-denniss/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
